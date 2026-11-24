@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Dots &amp; Boxes 3D</title>
+  <meta name="description" content="Privacy Policy for Dots &amp; Boxes 3D. Game data stays on your device.">
+  <style>
+    :root {
+      --navy: #090e1a;
+      --navy-2: #121a2e;
+      --card: rgba(18, 28, 48, 0.86);
+      --line: rgba(148, 180, 220, 0.22);
+      --text: #f8fafc;
+      --muted: #9aabc4;
+      --cyan: #06e5f5;
+      --coral: #ff5a79;
+      --gold: #ffc857;
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
+      line-height: 1.65;
+      background:
+        radial-gradient(900px 420px at 10% -10%, rgba(6, 229, 245, 0.16), transparent 60%),
+        radial-gradient(700px 380px at 110% 0%, rgba(255, 90, 121, 0.14), transparent 55%),
+        var(--navy);
+    }
+
+    a { color: var(--cyan); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: #8ff6ff; }
+    a:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    .wrap {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 64px;
+    }
+
+    header.hero {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 18px 20px;
+      align-items: center;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.04), transparent 40%),
+        var(--card);
+      box-shadow: var(--shadow);
+    }
+
+    header.hero img {
+      width: 84px;
+      height: 84px;
+      border-radius: 22px;
+      display: block;
+    }
+
+    .eyebrow {
+      margin: 0 0 4px;
+      color: var(--gold);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.7rem, 3vw, 2.15rem);
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+    }
+
+    .lede {
+      margin: 8px 0 0;
+      color: var(--muted);
+    }
+
+    nav.docs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 18px 0 8px;
+    }
+
+    nav.docs a {
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      background: rgba(9, 14, 26, 0.45);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 0.92rem;
+    }
+
+    nav.docs a[aria-current="page"] {
+      color: #042126;
+      background: linear-gradient(90deg, var(--cyan), #7af3ff);
+      border-color: transparent;
+      font-weight: 700;
+    }
+
+    main {
+      margin-top: 22px;
+      padding: 8px 26px 18px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: rgba(9, 14, 26, 0.55);
+    }
+
+    h2 {
+      margin: 28px 0 8px;
+      font-size: 1.2rem;
+      letter-spacing: -0.02em;
+    }
+
+    h2 span {
+      color: var(--cyan);
+      font-variant-numeric: tabular-nums;
+      margin-right: 8px;
+    }
+
+    p, li { color: #e7eef8; }
+    ul { padding-left: 1.2rem; }
+    li + li { margin-top: 6px; }
+
+    .note {
+      margin: 22px 0 8px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 200, 87, 0.35);
+      background: rgba(255, 200, 87, 0.08);
+      color: #ffe7ad;
+    }
+
+    footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      .wrap { width: min(760px, calc(100% - 20px)); padding-top: 16px; }
+      header.hero {
+        grid-template-columns: 1fr;
+        justify-items: start;
+        padding: 18px;
+      }
+      header.hero img { width: 72px; height: 72px; border-radius: 18px; }
+      main { padding: 4px 16px 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <img src="logo.png" width="84" height="84" alt="Dots and Boxes 3D logo">
+      <div>
+        <p class="eyebrow">Dots &amp; Boxes 3D</p>
+        <h1>Privacy Policy</h1>
+        <p class="lede">Last updated November 24, 2026. Version 1.0.</p>
+      </div>
+    </header>
+
+    <nav class="docs" aria-label="Legal documents">
+      <a href="privacy.html" aria-current="page">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+
+    <main>
+      <p class="note">Dots &amp; Boxes 3D keeps your game progress on your device. A bottom banner and a full-screen ad at the end of a match are served by Google and are described below.</p>
+
+      <h2><span>01</span>Who this covers</h2>
+      <p>This policy applies to the Android app <strong>Dots &amp; Boxes 3D</strong>, package <code>com.w3stech.dotsandboxes</code>. There is no separate account, website login, or online profile.</p>
+
+      <h2><span>02</span>Information stored on your device</h2>
+      <p>The app saves a preferences file named <code>dots_and_boxes_settings</code> on the phone or tablet where you installed it. That file can include:</p>
+      <ul>
+        <li>Settings you choose, such as sound, music, theme, animation, board size, game mode, AI difficulty, and accessibility options.</li>
+        <li>Names you type for Player 1, Player 2, the AI opponent, and your profile display name.</li>
+        <li>Match statistics, including games played, wins, draws, boxes claimed, moves, streaks, board sizes, and total time spent in completed matches.</li>
+        <li>Progress: level and experience, puzzle coins, owned and equipped cosmetics, achievements, tutorial completion, and daily-challenge or login-streak progress.</li>
+      </ul>
+      <p>Names are whatever you enter. They are not checked against an identity service. Please avoid typing private information you would not want stored in an app backup, such as a full legal name, email address, or phone number.</p>
+
+      <h2><span>03</span>Advertising</h2>
+      <p>The app shows a banner at the bottom of the screen and a full-screen ad when a match ends, using Google Mobile Ads (AdMob). About every 45 seconds the banner loads a different ad placement, and each finished match shows one full-screen placement chosen at random. Google may receive and use an advertising identifier, IP address, and device information to request, display, and measure those ads. That collection is described in <a href="https://policies.google.com/technologies/ads">Google’s advertising policies</a> and <a href="https://policies.google.com/privacy">Google’s privacy policy</a>. Game settings, names, statistics, and progression are not sent to a server operated for this app.</p>
+      <p>You can limit ad personalization in your device’s ads settings, and you can reset or delete your advertising ID from the system settings.</p>
+
+      <h2><span>04</span>What the app does not do</h2>
+      <ul>
+        <li>It does not create an account and does not ask you to sign in.</li>
+        <li>It does not use its own analytics SDK, and it does not ask for location, contacts, camera, or microphone access.</li>
+        <li>Puzzle coins and cosmetics cannot be bought with real money in this version.</li>
+      </ul>
+
+      <h2><span>05</span>Android backup</h2>
+      <p>Android backup is allowed for the app. If you use Google backup or a device-to-device transfer, Android may include the app’s local data in that backup. That copy is handled by your device and your Google account settings, not by a game server. You can turn off Android backup in your device settings, and you can erase the app’s data from the system App info screen or with the reset controls inside Settings.</p>
+
+      <h2><span>06</span>Children</h2>
+      <p>Dots &amp; Boxes 3D is a general-audience casual game. It is not directed at children under 13, and it does not ask for an age. Do not use it to enter a child’s personal information. Advertising, when shown, is handled by Google as described above.</p>
+
+      <h2><span>07</span>Your choices</h2>
+      <p>You can change names and settings at any time. Reset controls in the app can clear settings, statistics, or progression, including coins, cosmetics progress, and achievements stored in the local file. Uninstalling the app removes its local data from that device, apart from any copy already stored in an Android backup.</p>
+
+      <h2><span>08</span>Changes</h2>
+      <p>If a later version starts using accounts or a new kind of data collection, this policy will be updated and the “Last updated” date will change.</p>
+
+      <h2><span>09</span>Contact</h2>
+      <p>Questions about this policy can be sent to <a href="mailto:tutorialspointexamples@gmail.com">tutorialspointexamples@gmail.com</a>.</p>
+    </main>
+
+    <footer>
+      <p>Dots &amp; Boxes 3D · <a href="terms.html">Terms of Use</a></p>
+    </footer>
+  </div>
+</body>
+</html>
